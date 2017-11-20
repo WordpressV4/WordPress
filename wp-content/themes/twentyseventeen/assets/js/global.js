@@ -24,7 +24,7 @@
 		headerOffset,
 		menuTop = 0,
 		resizeTimer;
-
+ 
 	// Ensure the sticky navigation doesn't cover current focused links.
 	$( 'a[href], area[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), button:not([disabled]), iframe, object, embed, [tabindex], [contenteditable]', '.site-content-contain' ).filter( ':visible' ).focus( function() {
 		if ( $navigation.hasClass( 'site-navigation-fixed' ) ) {
